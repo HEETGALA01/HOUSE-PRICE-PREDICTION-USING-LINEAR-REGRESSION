@@ -55,3 +55,18 @@ Use the trained model to predict house prices on the test set and new samples.
 Evaluate the model using:
 - **Mean Squared Error (MSE)**: Measures the average squared error of the predictions.
 - **R-squared (R²)**: Represents how well the model explains the variance in house prices.
+
+---
+
+## 5. Why Use Linear Regression?
+- **Simplicity:** Easy to implement and interpret.
+- **Efficiency:** Performs well when the relationship between features and the target is linear.
+- **Interpretability:** The coefficients show how much each feature affects house prices.
+
+---
+
+## 6. Limitations of Linear Regression
+- **Assumes Linearity:** May underperform if the relationship between features and house prices is non-linear.
+- **Sensitive to Outliers:** Outliers can significantly affect predictions.
+- **Multicollinearity:** Highly correlated features may reduce model accuracy.
+
